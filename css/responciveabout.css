@@ -1,0 +1,136 @@
+/* frist bar*/
+@media screen and (max-width:767px){
+    .frist-bar{
+        display: none;
+    }
+}
+/* @media screen and (min-width:767px){
+    .nav-menu{
+        display: none;
+    }
+} */
+@media screen and (max-width:767px){
+    .hidden-img{
+        display: block;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:767px){
+    .toggle-btn-visible{
+        display: block;
+        margin-left: 600px;
+        margin-top: -6px;
+    }
+    .toggle-target-hidden{
+        display: none;
+
+    }
+    .toggle-target-expanded{
+        display: block;
+    }
+}
+/* navbar */
+  @media screen and (max-width:767px){
+    .nav-img{
+        display: none;
+    }
+    .un_order_list ul li{
+       font-size: 1.5rem;
+       margin-left: 0px;
+    }
+    .un_order_list ul{
+        margin-left: 150px !important;
+    }
+}  
+
+@media screen and (max-width:767px){
+    .bg-text {
+        margin-left: 550px;
+        color: #fff;
+        margin-top: 150px;
+    }
+    .bg-text p {
+      display: none;
+    }
+    .bg-text button {
+        width: 200px;
+        height: 80px;
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+}
+/* end  */
+/* abot help */
+/* .right-bar h2 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: -44px;
+    padding-top: 40px;
+    width: 420px;
+    border-top: 4px solid #861414;
+    margin-bottom: 20px;
+}
+.right-bar p{
+    font-size: 1.2rem;
+}
+
+.right-bottom-bar button{
+    font-size: 1.2rem;
+    width: 160px;
+    height: 80px;
+} */
+/* ..............end */
+/* pricing sec */
+@media screen and (max-width:767px){
+    .pricing {
+        width: 1519px;
+        height: 940px;
+        margin-top: 50px;
+    }
+    .pricing-div {
+        width: 80%;
+        margin-left:225px;
+        /* margin-right: auto; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .card {
+        height: 500px;
+        width: 470px;
+        margin-right: 40px;
+        text-align: center;
+        border: none !important;
+        box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.048), 2px -2px 10px rgba(0, 0, 0, 0.048);
+    }
+    .card span {
+        font-size: 5rem;
+    }
+    
+    .card p {
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    .bronze-pricing h4 {
+        background-color: burlywood;
+        margin-top: 11px;
+        height: 50px;
+    }
+    .silver-pricing h4 {
+        height: 50px;
+    }
+    .gold-pricing h4{
+        height: 50px;
+    }
+    .gold-pricing{
+       margin-left: 260px;
+       margin-top: 20px;
+    }
+    input[ type=submit]{
+        margin-left: 20px;
+        font-size: 1.5rem;
+        width: 139px;
+        height: 53px;
+    }
+}
